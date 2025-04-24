@@ -1,3 +1,6 @@
+> ⚠️ ShadowVault is in early development. Hardware is en route — development will kick off as soon as it lands.
+
+
 # 🔐 ShadowVault — Hardware-Backed Post-Quantum Key Management for Embedded Systems
 
 **ShadowVault** is a lightweight, secure Key Management System (KMS) designed for embedded devices. Built on the **ESP32**, it combines cutting-edge **post-quantum cryptography** (Kyber512), **secure hardware encryption** (via ATECC608A), and **microSD persistence** to create a truly modern cryptographic vault.
