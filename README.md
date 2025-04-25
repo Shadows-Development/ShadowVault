@@ -1,11 +1,43 @@
 > ⚠️ ShadowVault is in early development. Hardware is en route — development will kick off as soon as it lands.
 
-
 # 🔐 ShadowVault — Hardware-Backed Post-Quantum Key Management for Embedded Systems
 
 **ShadowVault** is a lightweight, secure Key Management System (KMS) designed for embedded devices. Built on the **ESP32**, it combines cutting-edge **post-quantum cryptography** (Kyber512), **secure hardware encryption** (via ATECC608A), and **microSD persistence** to create a truly modern cryptographic vault.
 
 > ShadowVault is the foundation for future secure systems in the Shadow Development ecosystem — including password managers, identity systems, and secure provisioning frameworks.
+
+---
+
+## 🛣 Roadmap
+
+ShadowVault is more than just a dev board — it’s a stepping stone to a modular, hacker-friendly, and potentially commercial hardware KMS platform.
+
+### 🎯 Current Focus (Prototype Phase)
+- [x] Project planning + documentation
+- [x] Initial firmware structure and repo layout
+- [ ] Breadboard prototype using ESP32 + ATECC608A + microSD
+- [ ] Flashing + provisioning flow via Raspberry Pi
+- [ ] Serial feedback + logging + SD key persistence
+- [ ] Basic CLI tools for testing + host integration
+
+### 🔜 Short-Term Goals
+- [ ] RFID module integration (auth trigger)
+- [ ] Kyber keypair generation + AES-wrapped persistence
+- [ ] Secure element (ATECC) key operations (slot locking, signing, etc.)
+- [ ] Breadboard-ready MVP functional
+
+### 🚀 Mid-Term Plans
+- [ ] Design first custom PCB prototype
+- [ ] Evaluate manufacturing partners (e.g., JLCPCB, PCBWay)
+- [ ] Flashing + provisioning station using Raspberry Pi + GPIO
+- [ ] Begin production testing at small scale (~25–100 units)
+
+### 🏭 Future Possibilities
+- [ ] Launch dev kit version for sale (ShadowVault Dev Kit)
+- [ ] Create a PC-compatible companion board (ShadowPass)
+- [ ] Self-hosted ShadowVault Server + client SDK
+- [ ] Fully open-source post-quantum KMS stack
+- [ ] DEF CON / hacker event showcase demo
 
 ---
 
@@ -107,8 +139,8 @@ Apache License 2.0 — open for use, modification, and distribution with attribu
 ## 👨‍💻 Author
 
 **Harlan Risdal**  
-Creator of Shadow Development · Studying Computer Science or Cybersecurity Engineering @ Iowa State University
-Website: [https://shadowdevelopment.net](https://shadowdevelopment.net) *Coming Soon*
+Creator of Shadow Development · Studying Computer Science or Cybersecurity Engineering @ Iowa State University  
+Website: [https://shadowdevelopment.net](https://shadowdevelopment.net) *(Coming Soon)*
 
 ---
 
@@ -121,6 +153,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) *(coming soon)* or open an issue to get s
 
 ## 🔗 Part of the Shadow Ecosystem
 
-- 🧱 [ShadowCore](https://github.com/shadowdevelopment/shadowcore) — Core tools for building secure bots
-- 🌐 ShadowPass *(coming soon)* — Hardware-enforced password manager built on ShadowVault
+- 🧱 [ShadowCore](https://github.com/shadowdevelopment/shadowcore) — Core tools for building secure bots  
+- 🌐 ShadowPass *(coming soon)* — Hardware-enforced password manager built on ShadowVault  
 - 🔐 ShadowSecure *(future)* — End-to-end encryption infrastructure for modern systems
